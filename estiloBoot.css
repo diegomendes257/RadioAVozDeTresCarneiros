@@ -6,6 +6,14 @@
 	padding: 5px;
 }
 
+.back-logo:hover{
+	width: 40px;
+	height: 40px;
+	background-color: #000000;
+	border-radius: 15px;
+	box-shadow: 0px 5px 5px rgb(196, 0, 0);
+}
+
 #links-menu ul{
 	margin-top: 0px;
 	width: 90%;

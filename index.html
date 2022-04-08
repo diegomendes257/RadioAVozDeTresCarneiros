@@ -3,8 +3,11 @@
 	<head>
 		<title>Rádio A Voz de Três Carneiros</title>
 		<script src="logicaRadio.js"></script>
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="estiloBoot.css"/>
@@ -27,22 +30,22 @@
 							<tr>
 								<td>
 									<a href="https://www.facebook.com/radioavozdetrescarneiros" target="_blank">
-										<img src="img\facebook2.png" title="Facebook Radio A Voz do Ibura">
+										<img class="back-logo" src="img\facebook2.png" title="Facebook Radio A Voz do Ibura">
 									</a>
 								</td>
 								<td>
 									<a href="https://www.youtube.com/channel/UCVU8q5FGK1XUbIXO9c0O7Kg" target="_blank">
-										<img src="img\youtube2.png" title="Canal do YOUTUBE Radio A Voz de Três Carneiros">
+										<img class="back-logo" src="img\youtube2.png" title="Canal do YOUTUBE Radio A Voz de Três Carneiros">
 									</a>
 								</td>
 								<td>
 									<a href="https://www.instagram.com/radioavozdetrescarneiros" target="_blank">
-										<img src="img\insta2.png" title="INSTAGRAM Radio A Voz de Três Carneiros">
+										<img class="back-logo" src="img\insta2.png" title="INSTAGRAM Radio A Voz de Três Carneiros">
 									</a>
 								</td>
 								<td>
 									<a href="https://radiovozdoibura.blogspot.com" target="_blank">
-										<img src="img\blogger2.png" title="Blog Radio A Voz de Três Carneiros">
+										<img class="back-logo" src="img\blogger2.png" title="Blog Radio A Voz de Três Carneiros">
 									</a>
 								</td>
 							</tr>	
@@ -92,15 +95,16 @@
 				</button>
 				<nav id="links-menu" class="collapse navbar-collapse justify-content-center">
 					<ul class="navbar-nav justify-content-around">
-						<li class="nav-item active"><a class="nav-link" href="#">INÍCIO</a></li>
-						<li class="nav-item"><a class="nav-link" href="#">PROGRAMAÇÃO</a></li>
-						<li class="nav-item"><a class="nav-link" href="#">SOBRE A RÁDIO</a></li>
-						<li class="nav-item"><a class="nav-link" href="#">CONTATO</a></li>
+						<li class="nav-item active"><a class="nav-link" href="index.html">INÍCIO</a></li>
+						<li class="nav-item"><a class="nav-link" href="./paginas/programacao.html">PROGRAMAÇÃO</a></li>
+						<li class="nav-item"><a class="nav-link" href="./paginas/sobre.html">SOBRE A RÁDIO</a></li>
+						<li class="nav-item"><a class="nav-link" href="./paginas/contato.html">CONTATO</a></li>
 					</ul>
 				</nav>
 			</div>
 		</nav>
 <!------------ FIM MENU --------------->
+<!------------ SECAO LOGO --------------->
 		<section id="secao-logo" class="container-fluid pt-3">
 			<div class="container">
 				<figure class="figure">
@@ -113,6 +117,7 @@
 				<h2 class="display-2 text-center">Acredite em seus sonhos!</h2>
 			</div>
 		</div>
+<!------------ FIM SECAO LOGO --------------->
 <!------------ CARROSSEL --------------->
 		<section class="carrosel">
 			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -268,11 +273,11 @@
 					<br>E-mail: <br><b>marconegui235@gmail.com</b></b>
 				</div>
 				<div id="menu_rodape" align="left">
-					<b><li>Início</li>
-					<li>Programação</li>
-					<li>Sobre a Rádio</li>
-					<li>Equipe</li>
-					<li>Contato</b></li>
+					<b><li><a href="index.html">Início<a></li>
+					<li><a href="./paginas/programacao.html">Programação</a></li>
+					<li><a href="./paginas/sobre.html">Sobre a Rádio</a></li>
+					<li><a href="#">Equipe</a></li>
+					<li><a href="./paginas/contato.html">Contato</a></b></li>
 				</div>
 				<div id="versao" align="center">
 					Versão 1.2
